@@ -6,26 +6,21 @@
 }
 .background-img{
     background-image: url('./images/bk.jpg');
-    /* background-color: black; */
     height:100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
 }
-/* .trans-background{
-    background-color: rgba(18, 17, 17,0.8);
-} */
+
 nav ul{
     display: flex;
     justify-content: center;
     border: none;
-    /* height: 100px; */
     background-color: rgb(0, 0, 0);
-    /* background-image: linear-gradient(rgb(73, 73, 206),purple); */
     text-align: center;
     flex-wrap: wrap;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 li{
     list-style: none;
@@ -36,7 +31,7 @@ nav ul li a{
     text-decoration: none;
     margin: 20px;
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
     transition: transform .5s;
 }
 nav ul li a:hover{
@@ -66,13 +61,12 @@ header img{
     margin-top: 25px;
     margin-left: 15%;
     margin-right: 15%;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .container .box{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color:blueviolet; */
 }
 .container .box p{
     font-size: 20px;
@@ -87,13 +81,10 @@ footer{
     background-color: rgb(0, 0, 0);
     margin-top: 70px;
     align-items: center;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 footer ul{
     display: flex;
-    /* background-color: aqua; */
-    /* justify-content: center; */
-
 }
 footer ul a{
     text-decoration: none;
@@ -106,7 +97,6 @@ footer ul img{
 }
 footer ul li{
     margin: 10px 10px;
-    /* background-color: blue; */
 }
 li a:hover{
     color: rgb(96, 96, 37);
