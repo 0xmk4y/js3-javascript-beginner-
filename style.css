@@ -29,15 +29,17 @@ li{
     display: flex;
     align-items: center;
 }
-a{
+nav ul li a{
     text-decoration: none;
     margin: 20px;
     font-size: 20px;
     padding: 10px;
+    transition: transform .5s;
 }
-a:hover{
-    color: rgb(246, 133, 152);
-    border-bottom: 2px solid rgb(246, 133, 152);
+nav ul li a:hover{
+    color: rgb(255, 250, 251);
+    /* border-bottom: 2px solid rgb(246, 133, 152); */
+    transform: scale(1.2);
 }
 header{
     display: flex;
@@ -93,7 +95,8 @@ footer ul{
 footer ul a{
     text-decoration: none;
     font-size: 15px;
-    margin: 0px;
+    padding: 5px;
+    transition: transform .2s;
 }
 footer ul img{
     height: 30px;
@@ -101,4 +104,8 @@ footer ul img{
 footer ul li{
     margin: 10px 10px;
     /* background-color: blue; */
+}
+li a:hover{
+    color: rgb(96, 96, 37);
+    transform: scale(1.1);
 }
